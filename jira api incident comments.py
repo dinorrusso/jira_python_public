@@ -19,18 +19,11 @@ NOTE: you must change values below
 import requests
 import json
 
-<<<<<<< HEAD
 user = 'youremail.com'
 apikey = 'yourapikey'
 server = "https://your_server.atlassian.net"
 
 # TS-1 is a sample Incident id, comment is field name
-=======
-user = 'yourmail.com'
-apikey = 'your_api_keu'
-server = "https://your server.atlassian.net"
-# TS-1 is Incident id, comment is field
->>>>>>> 25c6b19810225487f795322be8565c77ecd6f515
 api_url_body = '/rest/servicedeskapi/request/TS-1/comment'
 
 response = requests.get(
